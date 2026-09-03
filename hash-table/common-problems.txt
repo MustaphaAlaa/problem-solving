@@ -1,0 +1,10 @@
+1. Two Sum
+2. Group Anagrams
+3. Valid Anagram
+4. Contains Duplicate
+5. Longest Consecutive Sequence
+6. Subarray Sum Equals K
+7. First Unique Character in a String
+8. Intersection of Two Arrays
+9. Top K Frequent Elements
+10. Ransom Note
