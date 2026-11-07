@@ -2,4 +2,7 @@
 **/bin/
 **/obj/
 
+dotnet-runs/
+
 .DS_Store
+.vscode

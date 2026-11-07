@@ -1,9 +1,9 @@
 public class TripletSum
 {
-    public IList<IList<int>> ThreeSum(int[] nums)
+    public void ThreeSum(int[] nums)
     {
         // List<List<int>> lists = new();
-        var lists = new int[nums.Length][3]();
+        var lists = new int[nums.Length, 3];
         nums.Sort();
 
         for (var i = 0; i < nums.Length; i++)
@@ -19,11 +19,11 @@ public class TripletSum
             foreach (var list in res)
             {
                 list.Add(nums[i]);
-                lists.Add(list);
+                // lists.Add(list);
             }
         }
 
-        return lists.ToArray();
+        // return lists.ToArray();
     }
 
     public List<List<int>> Sum(int[] lst, int start, int target)
